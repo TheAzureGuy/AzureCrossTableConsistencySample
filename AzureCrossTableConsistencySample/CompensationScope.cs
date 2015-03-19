@@ -337,7 +337,7 @@ namespace AzureCrossTableConsistencySample
         /// <param name="requestOptions">An object that specifies additional options for the request.</param>
         /// <param name="operationContext">An object that represents the context for the current operation.</param>
         /// <returns>The result of the operation performed in the Azure table.</returns>
-        public static IList<TableResult> Execute(this CloudTable table, CompensationScope scope, TableBatchOperation batch, TableRequestOptions requestOptions = null, OperationContext operationContext = null)
+        public static IList<TableResult> ExecuteBatch(this CloudTable table, CompensationScope scope, TableBatchOperation batch, TableRequestOptions requestOptions = null, OperationContext operationContext = null)
         {
             Guard.ArgumentNotNull(table, "table");
             Guard.ArgumentNotNull(scope, "scope");
