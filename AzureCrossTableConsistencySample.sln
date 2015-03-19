@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCrossTableConsistencySample", "AzureCrossTableConsistencySample\AzureCrossTableConsistencySample.csproj", "{E8C7E3C0-8D36-4868-92F1-464D602D71FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityAssurance", "QualityAssurance\QualityAssurance.csproj", "{E69FBF96-C256-4A6E-9ABB-826C201D467F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,12 +17,16 @@ Global
 		{E8C7E3C0-8D36-4868-92F1-464D602D71FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8C7E3C0-8D36-4868-92F1-464D602D71FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8C7E3C0-8D36-4868-92F1-464D602D71FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69FBF96-C256-4A6E-9ABB-826C201D467F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69FBF96-C256-4A6E-9ABB-826C201D467F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69FBF96-C256-4A6E-9ABB-826C201D467F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69FBF96-C256-4A6E-9ABB-826C201D467F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
 	EndGlobalSection
 EndGlobal
